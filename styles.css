@@ -1,0 +1,13 @@
+body {
+  text-align: center;
+}
+header {
+  background: url('https://lambdaschool.com/assets/img/background.jpg');
+  background-size: cover;
+  color: white;
+  font-weight: bold;
+}
+.layer {
+ background-color: rgba(61,124,160, 0.6);
+ position: relative;
+}
