@@ -1,6 +1,7 @@
 # LS-Clone
 Clone of:
-https://www.LambdaSchool.com<br>
+https://www.LambdaSchool.com
+<br>
 Things to do:<br>
 <ul>
 <li>Possibly integrate the use of bootstrap for responsive design.</li>
