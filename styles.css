@@ -8,23 +8,22 @@ body, html {
 /* Navigation bar */
 .nav {
   background-color: rgba(61,124,160, 0.6);
-  box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.05);
+  /*box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.05);*/
   margin: 0;
   padding: 0 15px;
-  border-bottom: 1px solid rgba(255,255,255,0.1);
 }
 .nav ul { 
   padding: 10px;
   background-color: rgba(61,124,160, 0.6);
   float: left;
-  position: fixed;
+  position: auto;
   width: 100%;
   left: 0;
   margin:0 auto 10px;
   width: 100%;
   display: block;
   top: 0;
-  z-index: 100; 
+  z-index: 100;
 }
 .nav li {
   display: inline-block; 
@@ -48,6 +47,7 @@ body, html {
   background: url('https://lambdaschool.com/assets/img/background.jpg');
   background-attachment: fixed;
   background-size: cover;
+  background-repeat: no-repeat;
   margin: 0;
   color: white;
   font-weight: bold;
@@ -77,4 +77,15 @@ body, html {
   background-color: white;
   color: rgb(90,154,190);
   border: 1px solid white;
+}
+
+section {
+  margin-top: 75px;
+}
+section>h1 {
+  font-size: 2em;
+}
+section>p {
+  color: gray;
+  font-size: 1.5em;
 }
