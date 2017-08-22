@@ -104,3 +104,82 @@ section>p {
 .second-text>p {
   color: gray;
 }
+/* Contains boxes, etc. */
+#next-section {
+  margin-top: 20em;
+  padding-top: 20px;
+  padding-bottom: 5em;
+  background-color: rgb(244, 244, 244);
+}
+/* Boxes for CS/Machine Learning */
+#box-text1 {
+  width: 40%;
+  background-color: rgb(255, 255, 255);
+  padding-top: 1em;
+  padding-bottom: 2em;
+  padding-right: 5em;
+  margin-left: 5em;
+  float: left;
+  margin: 0;
+}
+#box-text1>p:first-child {
+  border-bottom: 2px solid whitesmoke;
+  margin: 1.625em 0;
+}
+#box-text1>button {
+  padding: 1.2em;
+  width: 30%;
+  background-color: rgb(66,143,187);
+  color: white;
+  border: none;
+  font-size: .8em;
+  margin-left: 15px;
+  margin-right: 15px;
+  cursor: pointer;
+}
+#box-text1:hover {
+  box-shadow: 0.1em 0.1em 0.4em;
+}
+/* AI text box */
+#box-text2 {
+  width: 40%;
+  background-color: rgb(255, 255, 255);
+  padding-top: 1em;
+  padding-bottom: 2em;
+  margin-left: 40em;
+  float: right;
+  display: inline-block;
+  margin: 0;
+  margin-right: 50px;
+}
+#box-text2>button {
+  padding: 1.2em;
+  width: 30%;
+  background-color: rgb(66,143,187);
+  color: white;
+  border: none;
+  font-size: .8em;
+  margin-left: 15px;
+  margin-right: 15px;
+  cursor: pointer;
+}
+#box-text2>p:first-child {
+  border-bottom: 2px solid whitesmoke;
+  margin: 1.625em 0;
+}
+#box-text2:hover {
+  box-shadow: 0.1em 0.1em 0.4em;
+}
+#thisID {
+  background-color: rgb(255, 255, 255);
+}
+#blueimg {
+  position: absolute;
+  height: 100%;
+  left: 0;;
+  margin-top: 25em;
+  background-size: cover!important;
+  background-position: 60% 60%!important;
+  z-index: 0;
+  clip: rect(0, 400px, 600px, 0);
+}
