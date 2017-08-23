@@ -170,16 +170,16 @@ section>p {
 #box-text2:hover {
   box-shadow: 0.1em 0.1em 0.4em;
 }
-#thisID {
+.background-image {
+  float: left;
   background-color: rgb(255, 255, 255);
+  margin-top: 20px;
 }
-#blueimg {
-  position: absolute;
-  height: 100%;
-  left: 0;;
-  margin-top: 25em;
-  background-size: cover!important;
-  background-position: 60% 60%!important;
-  z-index: 0;
-  clip: rect(0, 400px, 600px, 0);
+.textimg {
+  padding-top: 3em;
+}
+.background-image img {
+  width: 45%;
+  float: left;
+ /* padding-top: 5em;*/
 }
